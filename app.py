@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import gzip, pickle
+
+
 
 # === Load Model and Metadata from Pickle ===
 with open("bigmart_best_model.pkl", "rb") as f:
